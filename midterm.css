@@ -1,0 +1,41 @@
+/*these are element selectors*/
+
+body {background-color: #FFC01C;}
+
+h1 {text-align: center; text-decoration: underline; font-variant: small-caps; font-size: 36px; font-family: Microsoft Sans Serif; color: #121570;}
+h2 {text-align: center; text-decoration: underline; font-size: 25px; font-family: Microsoft Sans Serif; color: #121570;}
+h3 {font-size: 18px; font-family: Microsoft Sans Serif; color: #121570; padding-left: 200px; padding-right: 200px;}
+h4 {font-size: 16px; font-family: Microsoft Sans Serif; color: #121570; font-weight: normal; text-align: center; 
+	padding-left: 400px; padding-right: 400px;}
+
+li {display: block; color: #121570; font-family:  Microsoft Sans Serif;}
+
+p {line-height: 20px;
+    padding: 5px;}
+
+/*these are pseudo selectors*/
+a {text-decoration: none; font-family: Microsoft Sans Serif}
+a:link {color: #121570;}
+a:visited {color: #121570;}
+a:hover {color: #F25091; background-color: #D1EB33;}
+a:active {color:  #D1EB33; background-color: #F25091;}
+
+/*this is an id selector*/
+#container {background-color: #D1EB8F;
+						margin: auto;
+						width: 80%;
+						padding: 5px;
+						word-spacing: 1px;
+						line-height: 30px;
+						border: 5px solid #F25091;
+						border-radius: 25px;}
+
+
+#description {background-color: white;
+						font-size: 14px;
+						font-family: Microsoft Sans Serif;
+						margin: auto;
+						text-align: center;
+						padding-left: 500px;
+						padding-right: 500px;
+						line-height: 20px;}
